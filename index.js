@@ -1,7 +1,4 @@
-/*          *     .        *  .    *    *   . 
- .  *  move your mouse to over the stars   .
- *  .  .   change these values:   .  *
-   .      * .        .          * .       */
+
    const STAR_COLOR = '#fff';
    const STAR_SIZE = 3;
    const STAR_MIN_SCALE = 0.2;
@@ -11,7 +8,7 @@
    const canvas = document.querySelector( 'canvas' ),
          context = canvas.getContext( '2d' );
    
-   let scale = 1, // device pixel ratio
+   let scale = 1, 
        width,
        height;
    
@@ -171,7 +168,7 @@
        var tailX = velocity.x * 2,
            tailY = velocity.y * 2;
    
-       // stroke() wont work on an invisible line
+       
        if( Math.abs( tailX ) < 0.1 ) tailX = 0.5;
        if( Math.abs( tailY ) < 0.1 ) tailY = 0.5;
    
