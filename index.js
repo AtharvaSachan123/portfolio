@@ -143,7 +143,7 @@
        star.y += ( star.y - height/2 ) * velocity.z * star.z;
        star.z += velocity.z;
      
-       // recycle when out of bounds
+       
        if( star.x < -OVERFLOW_THRESHOLD || star.x > width + OVERFLOW_THRESHOLD || star.y < -OVERFLOW_THRESHOLD || star.y > height + OVERFLOW_THRESHOLD ) {
          recycleStar( star );
        }
