@@ -222,4 +222,10 @@
    
    }
   // background ends
+  var options=  {
+    strings: ['Developer', 'UI Designer','Programmer'],
+    typeSpeed: 100,
+    backSpeed:100
+  };
+  var typed=new Typed('.typing',options);
    
