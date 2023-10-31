@@ -225,7 +225,7 @@
 
   // added animated text
   var typed = new Typed('#title', {
-    strings: ['Developer', 'UI/UX Designer',"Learner"],
+    strings: ['Developer', ' Designer',"Learner"],
     typeSpeed: 100,
   backSpeed:100,
 loop:true,});

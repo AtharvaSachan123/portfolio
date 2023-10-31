@@ -84,6 +84,7 @@ span{
     display: flex;
   align-items: center;
   justify-content: space-evenly;
+  /* flex-direction: ; */
   }
   @keyframes float {
     0%{
@@ -98,6 +99,11 @@ span{
     height: 600px;
     width: 600px;
     animation: float linear 2.5s infinite alternate;
+  }
+  @media screen and (max-width: 1500px) {
+    .main-container {
+      flex-direction: column;
+    }
   }
   
   
