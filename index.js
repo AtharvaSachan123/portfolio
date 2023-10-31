@@ -222,10 +222,10 @@
    
    }
   // background ends
-  var options=  {
-    strings: ['Developer', 'UI Designer','Programmer'],
+
+  // added animated text
+  var typed = new Typed('#title', {
+    strings: ['Developer', 'UI/UX Designer',"Learner"],
     typeSpeed: 100,
-    backSpeed:100
-  };
-  var typed=new Typed('.typing',options);
-   
+  backSpeed:100,
+loop:true,});
